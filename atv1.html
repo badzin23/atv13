@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <script src="script1.js"></script>
+</head>
+<body>
+    <body>
+        <div id="rei">
+        <h1>Atv 1</h1>
+        <div>
+            <form action="#" method="post">
+                <div id="Calculadora">        
+                <label for="calculo">Operação:</label>
+                <select id="calculo"  name = "calculo">
+                    <option selected disabled> Escolha uma operação</option>
+                    <option value="soma">Diferença</option>
+                    <option value="subtração">Dobro e triplo</option>
+                    <option value="multiplicação">Multiplicação</option>
+                    <option value="divisão">Ordem crescente</option>
+                    <br>
+                </select>
+                <br>
+            <label for="p1">Primeiro Numero:</label>
+            <input type="text" id="p1" name="p1" required/>
+        </div>
+        <br>
+        <div>
+            <label for="p2">Segundo Numero:</label>
+            <input type="text" id="p2" name="p2" required/>
+            <br>
+        </div>
+        <button id="resultado" type="button" onclick="calculadora()">resultado</button>
+    </div>
+    <div id="rei2">
+        <h1>Atv 2</h1>
+    
+   <form action="#" method="post">
+      <label for="nome-funcionario">nome funcionario:</label><br>
+      <input type="text" id="nome-funcionario" name="nome-funcionario">
+      <br><br>
+
+      <label for="salario-bruto">salario bruto:</label><br>
+      <input type="number" id="salario-bruto" name="salario-bruto">
+      <br><br>
+   </form>
+
+   <button id="toi" onclick="ativ2()">resultado</button>
+
+
+   <p>Valor do INSS: <span id="valor-inss"></span></p>
+   <p>Salario liquido: <span id="salario-liquido"></span></p>
+   </div>
+        <style>
+            body{
+                font-family: sans-serif;
+                text-align: center; 
+               background-color: white;
+               background-repeat:no-repeat;
+               background-size: cover;
+            }
+            #rei{
+               background-color: rgb(250, 227, 94);
+               margin-left: 830px;
+               margin-top: 80px;
+               height: 300px;
+               width: 300px;
+               border-radius: 10px;
+            }
+            button{
+                margin-top: 3vmin;
+                height: 5vmin;
+                width: 10vmin;
+                border-radius: 1vmin;
+            }
+
+            #rei2{
+               background-color: rgb(250, 227, 94);
+               margin-top: 300px;
+               height: 330px;
+               width: 300px;
+               border-radius: 10px;
+            }
+
+            #toi{
+                margin-top: 0.5vmin;
+            }
+        </style>
+</body>
+</html> 
+</body>
+</html>
